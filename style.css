@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  @apply text-[15px] text-[hsl(238,22%,44%)] leading-relaxed;
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+button, li button {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+}
+
+.link {
+  color: hsl(170, 45%, 43%);
+}
+
+.cta {
+  background-color: hsl(238, 22%, 44%);
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.social-icon {
+  @apply inline-flex items-center justify-center w-10 h-10 border border-white rounded-full text-white transition;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: hsl(243, 87%, 12%);
+}.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white; /* ← БІЛА ОБВОДКА */
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 18px;
+}
+
+.social-icon:hover {
+  background-color: white;
+  color: hsl(243, 87%, 12%);
+}
