@@ -53,7 +53,7 @@ footer {
   justify-content: center;
   width: 40px;
   height: 40px;
-  border: 1px solid white; /* ← БІЛА ОБВОДКА */
+  border: 1px solid white; 
   border-radius: 50%;
   color: white;
   text-decoration: none;
